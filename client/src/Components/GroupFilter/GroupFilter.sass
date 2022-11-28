@@ -1,0 +1,33 @@
+@import '../../variables.sass'
+.groupFilter
+    width: 100%
+    &__list
+        &__item
+            font-family: $main-font-regular
+            font-size: 20px
+            line-height: 24px
+            background: $gray-1
+            border-left: 4px solid $blue-2
+            list-style: none
+            color: $text-color-light
+            height: 50px
+            display: flex
+            justify-content: center
+            align-items: center
+            position: relative
+            &:not(:last-child)
+                margin-bottom: 2px
+            &:hover
+                cursor: pointer
+                font-size: 21px
+                background: $gray-1-hover
+                border-color: $blue-2-hover
+                color: $text-color-active
+                box-shadow: 0px 0px 3px #9FABC1
+            &.active
+                font-family: $main-font-semiBold
+                cursor: pointer
+                background: $gray-2 
+                border-color: $blue-4
+                color: $text-color-active
+                box-shadow: 0px 0px 3px #9FABC1
