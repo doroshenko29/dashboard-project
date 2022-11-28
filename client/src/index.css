@@ -41,7 +41,7 @@ code {
   --red-1: #FF0000;
   --orange-1: #FFB800;
 
-  --box-shadow-color-1: #9FABC1;
+  --box-shadow-color-1: var(--gray-blue-2);
 
   --main-font-regular: 'Montserrat-Regular';
   --main-font-medium: 'Montserrat-Medium';
