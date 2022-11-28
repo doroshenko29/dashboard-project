@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from "react";
+import React from "react";
 import GroupFilter from "../GroupFilter";
 import ServiceStatus from "../ServiceStatus";
 import './SideBar.sass'
