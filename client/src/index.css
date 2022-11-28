@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --gray-blue-3: #2C3349; 
+  --gray-blue-2: #9FABC1;
+  --gray-blue-1: #677A9F;
+  --gray-1: #3D455D; 
+  --gray-2: #5F677C; 
+  --gray-1-hover: #404963;
+  --blue-2: #8CBFE1; 
+  --blue-2-hover: #62B4FF; 
+  --blue-4: #0084FE; 
+
+  --text-color-light: #A1A6B2;
+  --text-color-active: #F8F9F9;
+  
+  --gray-f: #fff;
+  --gray-3: #D9D9D9;
+  --gray-4: #CED6E5;
+  --gray-4-hover: #C5CEDE;
+  --text-gray-1: #141414;
+  --text-gray-0: #000;
+
+  --red-1: #FF0000;
+  --orange-1: #FFB800;
+
+  --blue-dark: #0D1632;
+
+  --main-font-regular: 'Montserrat-Regular';
+  --main-font-medium: 'Montserrat-Medium';
+  --main-font-semiBold: 'Montserrat-SemiBold';
+  --main-font-bold: 'Montserrat-Bold';
+}

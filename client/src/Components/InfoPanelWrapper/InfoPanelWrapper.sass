@@ -1,0 +1,43 @@
+@import '../../variables.sass'
+.infoPanelWrapper
+    &__title
+        font-family: $main-font-semiBold
+        font-size: 20px
+        line-height: 24px
+        background: $blue-2
+        color: $gray-f
+        width: max-content
+        padding: 10px 20px
+        border-top-left-radius: 10px
+        border-top-right-radius: 10px
+    &__children
+        border: 2px solid $blue-2
+        box-shadow: 2px 2px 6px -2px #8cbfe1
+        border-radius: 0px 5px 5px 5px
+        min-width: max-content
+        padding: 15px
+    &.nodesTitle
+        grid-column-start: 1
+        grid-column-end: 2
+        grid-row-start: 1
+        grid-row-end: 4
+    &.metricsTitle
+        grid-column-start: 2
+        grid-column-end: 4
+        grid-row-start: 1
+        grid-row-end: 2
+    &.adminTitle 
+        grid-column-start: 2
+        grid-column-end: 3
+        grid-row-start: 2
+        grid-row-end: 3
+    &.appsTitle
+        grid-column-start: 3
+        grid-column-end: 4
+        grid-row-start: 2
+        grid-row-end: 3
+    &.interfaceTitle
+        grid-column-start: 2
+        grid-column-end: 4
+        grid-row-start: 3
+        grid-row-end: 4

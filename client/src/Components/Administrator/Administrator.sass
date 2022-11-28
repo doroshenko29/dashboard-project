@@ -1,0 +1,25 @@
+@import '../../variables.sass'
+
+.administrator
+    display: flex
+    align-items: center
+    &__title
+        width: 100px
+        font-family: $main-font-regular
+        font-size: 16px
+        line-height: 20px
+        color: $text-gray-0
+        text-align: end
+        padding-right: 10px
+    &__item
+        width: -webkit-fill-available
+        font-family: $main-font-medium
+        font-size: 20px
+        line-height: 24px
+        color: $gray-f
+        background: $gray-blue-1
+        border-radius: 10px
+        padding: 5px 0
+        text-align: center
+    &:not(:last-child)
+        margin-bottom: 10px
