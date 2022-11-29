@@ -13,30 +13,35 @@ code {
 }
 
 :root {
-  --gray-blue-3: #2C3349; 
-  --gray-blue-2: #9FABC1;
-  --gray-blue-1: #677A9F;
   --gray-1: #3D455D; 
   --gray-2: #5F677C; 
-  --gray-1-hover: #404963;
+  --gray-3: #D9D9D9;
+  --gray-4: #CED6E5;
+  --gray-5: #BABABA;
+
+  --gray-f: #fff;
+
+  --blue-dark: #0D1632;
   --blue-2: #8CBFE1; 
-  --blue-2-hover: #62B4FF; 
   --blue-4: #0084FE; 
+
+  --gray-blue-1: #677A9F;
+  --gray-blue-2: #9FABC1;
+  --gray-blue-3: #2C3349; 
+  
+  --gray-1-hover: #404963;
+  --gray-4-hover: #C5CEDE;
+  --blue-2-hover: #62B4FF; 
 
   --text-color-light: #A1A6B2;
   --text-color-active: #F8F9F9;
-  
-  --gray-f: #fff;
-  --gray-3: #D9D9D9;
-  --gray-4: #CED6E5;
-  --gray-4-hover: #C5CEDE;
   --text-gray-1: #141414;
   --text-gray-0: #000;
 
   --red-1: #FF0000;
   --orange-1: #FFB800;
 
-  --blue-dark: #0D1632;
+  --box-shadow-color-1: var(--gray-blue-2);
 
   --main-font-regular: 'Montserrat-Regular';
   --main-font-medium: 'Montserrat-Medium';

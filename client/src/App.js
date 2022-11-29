@@ -14,7 +14,7 @@ const App = () => {
     let timer = setInterval(() => {
       fetchGroups().then((res) =>storeGroup.setGroups(res))
       fetchMetrics().then((res) =>storeMetrics.setMetrics(res))
-    }, 1000 * 10);
+    }, 1000 * 60);
     return () => clearInterval(timer);
   }, []);
   return (

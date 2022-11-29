@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext } from 'react'
 import { format } from 'date-fns'
 import {
   Chart as ChartJS,
